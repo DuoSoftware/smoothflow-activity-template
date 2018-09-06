@@ -34,7 +34,9 @@ module.exports = {
     ],
 
     //Your General Error message
-    error : response.error
+    error : response.error,
+    //Your General Success message
+    error : response.success
 };
 
 
