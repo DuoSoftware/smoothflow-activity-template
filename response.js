@@ -10,6 +10,7 @@ module.exports = {
 
     success : () => {
         //Only values can change
+        //Success response will be inserted to the following response json as 'output'
         return({
             'code' : 200,
             'message' : 'your custom success message'

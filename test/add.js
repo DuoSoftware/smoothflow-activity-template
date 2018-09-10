@@ -11,7 +11,13 @@ describe('Calculation Actions', (done) => {
 
     it('Should add the inputs', () => {
 
-        expect(add(1,1)).to.deep.equal(2);
+        expect(add({'num1' : 1, 'num2' : 1})).to.deep.equal(2);
+
+    });
+
+    it('Should return a function', () => {
+
+        expect(add).to.be.a('function');
 
     });
 
